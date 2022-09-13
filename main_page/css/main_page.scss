@@ -1,0 +1,186 @@
+@import url(../../css/main.css);
+
+body {
+  background: var(--primary-color);
+  margin: 0;
+  padding: 0;
+}
+
+
+.category_menu {
+  box-sizing: border-box;
+  background: var(--details-color);
+  padding: 30px;
+  width: 100%;
+  text-align: center;
+
+  .tags_message {
+    line-height: 60px;
+    height: 60px;
+    font-size: 16px;
+    color: var(--input-text-color);
+  }
+
+  .category {
+    position: relative;
+    margin-right: 40px;
+    margin-left: 40px;
+
+    .category_image {
+      z-index: 2;
+      width: 90px;
+      height: 90px;
+      object-fit: cover;
+      transition: 0.3s;
+    }
+
+    .category_name {
+      position: absolute;
+      top: 35%;
+      width: 100%;
+      font-size: small;
+      z-index: 1;
+      text-align: center;
+      opacity: 0;
+      transition: 0.3s;
+
+      a {
+        color: white;
+        text-decoration: none;
+      }
+    }
+  }
+
+  li :hover img {
+    filter: blur(2px) brightness(70%);
+  }
+
+  li :hover .category_name {
+    opacity: 1;
+  }
+}
+
+.coupons {
+  font-size: 0;
+  padding: 20px 50px 10px;
+  text-align: center;
+  margin-bottom: 50px;
+
+  .coupon {
+    box-sizing: border-box;
+    text-align: left;
+    margin: 20px 34px;
+  }
+
+  .image .coupon_image {
+    height: 190px;
+    width: 220px;
+    object-fit: cover;
+  }
+
+  .coupon_description {
+    box-sizing: border-box;
+    background: white;
+    height: 120px;
+    width: 220px;
+    padding: 12px;
+
+    .avarage_price {
+      padding-top: 10px;
+      font-weight: bolder;
+      font-size: 15px;
+    }
+  }
+
+  .coupons_message {
+    line-height: 60px;
+    height: 60px;
+    font-size: 16px;
+    color: var(--input-text-color);
+  }
+}
+
+.coupon_brief_description {
+  margin-bottom: 10px;
+  padding-top: 10px;
+  font-weight: lighter;
+  font-size: 10px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  max-width: 100px;
+}
+
+.expires_in_info {
+  margin-bottom: 10px;
+  padding-top: 10px;
+  font-weight: lighter;
+  font-size: 8px;
+  color: var(--details-color);
+  float: right;
+}
+
+.coupon_name {
+  font-weight: lighter;
+  font-size: 15px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  max-width: 100px;
+
+  a {
+    text-decoration: none;
+    color: black;
+  }
+}
+
+.coupon_favorite {
+  float: right;
+  margin-left: 60px;
+}
+
+.add_to_cart_button {
+  box-sizing: border-box;
+  margin: 10px auto;
+  float: right;
+  padding-top: 4px;
+  width: 85px;
+  height: 25px;
+  text-align: center;
+  font-weight: bold;
+  border: 1px solid var(--dark-color);
+}
+
+.coupon_info_table {
+  width: 160px;
+}
+
+.add_to_cart {
+  font-size: 11px;
+  color: var(--dark-color);
+  font-weight: lighter;
+  text-decoration: none;
+}
+
+.add_to_cart_disabled {
+  color: var(--details-color);
+}
+
+//table {
+//  margin: 0 auto;
+//  border-collapse: collapse;
+//}
+//
+//
+//tr:nth-last-child(-n + 2) {
+//  border-bottom: 1px solid var(--details-color);
+//}
+//
+//
+//tr:last-child {
+//  border: none;
+//}
+
+ul li {
+  display: inline-block;
+}

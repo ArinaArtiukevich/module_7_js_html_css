@@ -1,0 +1,15 @@
+.spinner_container {
+  position: fixed;
+  display: flex;
+  bottom: 0px;
+  left: 50%;
+  transform: translateX(-50%);
+  align-items: center;
+}
+
+.spinner_img {
+  width: 200px;
+  height: 200px;
+}
+
+/*# sourceMappingURL=Spinner.css.map */

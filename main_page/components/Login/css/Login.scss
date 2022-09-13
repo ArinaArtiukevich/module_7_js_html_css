@@ -1,0 +1,83 @@
+@mixin centrilize_form() {
+  top: 30%;
+  left: 40%;
+}
+
+@mixin centrilize_fields() {
+  top: 25%;
+  left: 18%;
+}
+body {
+  background: var(--primary-color);
+}
+
+.container {
+  .rectangle {
+    position: absolute;
+    height: 300px;
+    width: 300px;
+    background: white;
+    border: 1px solid var(--details-color);
+    border-radius: 5px;
+    @include centrilize_form();
+
+    .circle {
+      position: absolute;
+      height: 140px;
+      width: 140px;
+      border-radius: 140px;
+      left: 25%;
+      margin-top: -25%;
+      background: var(--details-color);
+
+      .logo_circle {
+        position: relative;
+        margin-top: 25%;
+        text-decoration: none;
+        color: white;
+        font-size: 3em;
+        text-align: center;
+      }
+    }
+
+
+    .login_message {
+      position: absolute;
+      text-align: center;
+      top: 65%;
+      width: 100%;
+      color: var(--input-text-color);
+      overflow: hidden;
+      display: -webkit-box;
+      -webkit-line-clamp: 3;
+      -webkit-box-orient: vertical;
+    }
+
+    .input_fields {
+      position: absolute;
+      @include centrilize_fields();
+      ul li {
+        padding-bottom: 15px;
+      }
+    }
+
+    .login_button {
+      position: relative;
+      text-align: center;
+      top: 85%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      .primary_cta {
+        background: var(--green-button-color);
+        color: white;
+        text-decoration: none;
+        border-radius: 5px;
+        padding: 10px 75px;
+        font-size: 16px;
+        border-width: 1px;
+      }
+    }
+  }
+
+}
+

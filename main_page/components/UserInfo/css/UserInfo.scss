@@ -1,0 +1,23 @@
+.container {
+  .user_field {
+    display: block;
+    font-size: 1.1em;
+    margin-bottom: 1em;
+    margin-left: 2em;
+    position: relative;
+    color: var(--input-text-color);
+    font-weight: lighter;
+    padding: 10px;
+  }
+
+  .user_detail_info {
+    padding-left: 20px;
+  }
+  .user_elements_list {
+    margin-top: 30px;
+  }
+
+  .user_certificates_border{
+    width: 770px;
+  }
+}

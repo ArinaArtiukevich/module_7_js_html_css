@@ -1,0 +1,17 @@
+.footer {
+  height: 90px;
+  background-color: white;
+  clear: both;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer_small {
+  height: 60px;
+  background-color: white;
+  clear: both;
+  bottom: 0;
+  width: 100%;
+}
+
+/*# sourceMappingURL=Footer.css.map */

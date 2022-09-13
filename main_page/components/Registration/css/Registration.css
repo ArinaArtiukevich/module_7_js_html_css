@@ -1,0 +1,91 @@
+body {
+  background: var(--primary-color);
+}
+
+.container_registration .rectangle_registration {
+  position: absolute;
+  height: 400px;
+  width: 650px;
+  background: white;
+  border: 1px solid var(--details-color);
+  border-radius: 5px;
+  top: 25%;
+  left: 25%;
+}
+.container_registration .rectangle_registration .head_rectangle_registration {
+  height: 55px;
+  background: var(--details-color);
+}
+.container_registration .rectangle_registration .head_rectangle_registration .head_text_registration {
+  text-decoration: none;
+  color: white;
+  font-size: 1.5em;
+  font-weight: lighter;
+  padding: 10px;
+}
+.container_registration .rectangle_registration .input_fields_registration {
+  position: absolute;
+  padding: 30px 50px 50px;
+  width: 100%;
+  overflow: hidden;
+}
+.container_registration .rectangle_registration .input_fields_registration ul li {
+  padding-bottom: 20px;
+}
+.container_registration .rectangle_registration .input_fields_registration .left_column_registration {
+  width: 100px;
+  float: left;
+}
+.container_registration .rectangle_registration .input_fields_registration .right_column_registration {
+  margin-left: 300px;
+}
+.container_registration .rectangle_registration .input_fields_registration .registration_message {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  text-align: center;
+  color: var(--input-text-color);
+}
+.container_registration .rectangle_registration .button_registration {
+  position: relative;
+  text-align: center;
+  top: 70%;
+  left: 75%;
+  transform: translate(-50%, -50%);
+}
+.container_registration .rectangle_registration .button_registration ul li {
+  display: inline;
+}
+
+.input_field_long_registration {
+  position: relative;
+  border-radius: 5px;
+  padding: 10px;
+  border: solid var(--primary-color);
+  font-size: 16px;
+  text-align: center;
+  font-weight: lighter;
+  width: 250px;
+}
+
+.light_button_registration {
+  background: white;
+  color: var(--details-color);
+  text-decoration: none;
+  border: 1px solid var(--details-color);
+  border-radius: 5px;
+  padding: 10px 30px;
+}
+
+.green_button_registration {
+  position: relative;
+  margin: 20px;
+  background: var(--green-button-color);
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  border-width: 1px;
+  padding: 10px 30px;
+  font-size: 16px;
+}
+
+/*# sourceMappingURL=Registration.css.map */

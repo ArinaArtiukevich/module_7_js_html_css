@@ -1,0 +1,45 @@
+.to_top {
+  background: white;
+  position: fixed;
+  right: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  opacity: 0;
+  transition: all .4s;
+  bottom: 13%;
+  pointer-events: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.active {
+  bottom: 13%;
+  pointer-events: auto;
+  opacity: 1;
+}
+
+.to_top .top_up_img {
+  height: 40px;
+  width: 40px;
+}
+
+.coupon_description {
+  table {
+    margin: 0 auto;
+    border-collapse: collapse;
+  }
+
+
+  tr:nth-last-child(-n + 2) {
+    border-bottom: 1px solid var(--details-color);
+  }
+
+
+  tr:last-child {
+    border: none;
+  }
+}

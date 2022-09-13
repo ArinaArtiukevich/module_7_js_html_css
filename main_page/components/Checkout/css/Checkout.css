@@ -1,0 +1,125 @@
+.container {
+  background: white;
+}
+.container .head_container {
+  background: var(--details-color);
+  height: 55px;
+  position: absolute;
+  width: 100%;
+}
+.container .head_container .head_text {
+  margin-left: 26%;
+  text-decoration: none;
+  color: white;
+  font-size: 1.5em;
+  font-weight: lighter;
+  padding: 13px;
+}
+.container .info_element_message {
+  position: absolute;
+  padding: 30px 50px 50px;
+  width: 100%;
+  overflow: hidden;
+  margin-top: 60px;
+  margin-bottom: 10px;
+  text-align: center;
+  color: var(--input-text-color);
+}
+.container .border {
+  position: absolute;
+  top: 12%;
+  left: 23%;
+  margin-top: 100px;
+  padding: 40px;
+  width: 770px;
+}
+.container .border .button_checkout {
+  position: absolute;
+  text-align: center;
+  margin-left: 366px;
+  margin-top: 40px;
+}
+.container .border .button_checkout ul li {
+  display: inline;
+}
+.container .elements .element {
+  display: grid;
+}
+.container .elements .element li {
+  font-size: 1.1em;
+  margin-bottom: 1em;
+  margin-left: 2em;
+  position: relative;
+}
+.container .elements .element .element_image_square {
+  object-fit: contain;
+  height: 80px;
+  width: 80px;
+}
+.container .elements .element .element_information {
+  height: 100px;
+  width: 400px;
+  position: relative;
+  top: -5px;
+}
+.container .elements .element .element_information .element_description {
+  padding-top: 20px;
+  font-size: 16px;
+  font-weight: lighter;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+.container .elements .element .info_element {
+  display: inline-block;
+}
+.container .elements .element .element_price {
+  position: relative;
+  top: -30px;
+}
+.container .total_elements {
+  font-size: 1.1em;
+  text-align: right;
+}
+.container .total_elements .elements_price {
+  margin-top: 30px;
+  margin-right: 56px;
+  display: inline-block;
+}
+
+.elements_list > li:last-child {
+  border-bottom: 1px solid var(--dark-color);
+  padding: 0px 0px;
+}
+
+.light_button {
+  background: white;
+  color: var(--details-color);
+  text-decoration: none;
+  border: 1px solid var(--details-color);
+  border-radius: 5px;
+  padding: 10px 52px;
+  font-size: 0.9em;
+}
+
+.green_button {
+  margin: 13px;
+  background: var(--green-button-color);
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  padding: 10px 52px;
+  font-size: 0.9em;
+}
+
+.delete_item {
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  bottom: 5px;
+}
+
+/*# sourceMappingURL=Checkout.css.map */

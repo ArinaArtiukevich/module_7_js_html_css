@@ -1,0 +1,83 @@
+.container_details {
+  background: var(--primary-color);
+}
+.container_details .element_details {
+  position: relative;
+  margin-top: 3%;
+}
+.container_details .element_details .parent {
+  display: flex;
+  flex-direction: row;
+}
+.container_details .element_details .element_image_large {
+  object-fit: contain;
+  margin-left: 5%;
+  height: 350px;
+  width: 700px;
+}
+.container_details .element_details .info_box {
+  margin-left: 5%;
+  position: relative;
+  height: 350px;
+  width: 500px;
+  background: white;
+  border: 1px solid white;
+  border-radius: 5px;
+  padding: 30px;
+}
+.container_details .element_details .info_box .description {
+  color: gray;
+  font-weight: lighter;
+}
+.container_details .element_details .info_box .description .element_full_description {
+  margin-top: 20px;
+  word-break: break-all;
+}
+.container_details .element_details .info_box .time_left {
+  position: relative;
+  margin-top: 20px;
+}
+.container_details .element_details .info_box .time_left .time_left_titlie {
+  padding-top: 20px;
+  font-size: 16px;
+  font-weight: lighter;
+  color: var(--details-color);
+}
+.container_details .element_details .info_box .inline_footer_box {
+  display: inline-block;
+}
+.container_details .element_details .info_box .price {
+  padding-top: 40px;
+  font-weight: bold;
+}
+.container_details .element_details .info_box .item_actions {
+  position: absolute;
+  bottom: 20px;
+  font-weight: lighter;
+  right: 5%;
+}
+.container_details .element_details .info_box .item_actions ul > li + li {
+  padding-left: 6px;
+  border-left: 1px solid var(--dark-color);
+}
+.container_details .element_details .info_box .item_actions a {
+  text-decoration: none;
+  color: #6db8eb;
+}
+.container_details .element_detailed_info {
+  position: relative;
+  margin-top: 30px;
+  padding-left: 5%;
+  width: 700px;
+}
+.container_details .element_detailed_info .detailed_description_title {
+  font-size: 18px;
+}
+.container_details .element_detailed_info .detailed_description {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  color: gray;
+  font-weight: lighter;
+}
+
+/*# sourceMappingURL=ItemDetails.css.map */
