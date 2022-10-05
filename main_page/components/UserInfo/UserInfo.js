@@ -21,8 +21,6 @@ class UserInfo {
                             this.setUserDetailsRoot(user["login"], user["budget"], user["certificates"]);
                         }
                     });
-                } else {
-                    // todo EXCEPTION;
                 }
             });
         } else {

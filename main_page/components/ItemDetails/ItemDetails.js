@@ -15,8 +15,6 @@ class ItemDetails {
                         this.setItemDetailsRoot(item["name"], item["description"], item["duration"], item["price"], item["id"], item["imagePath"]);
                     }
                 });
-            } else {
-               // todo console.log("requiredItem");
             }
         });
 

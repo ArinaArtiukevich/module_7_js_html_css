@@ -15,3 +15,5 @@ tmp
 rebel.xm
 .DS_Store
 build
+node_modules
+.vscode
